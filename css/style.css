@@ -2,6 +2,7 @@
   --red: #780116;
   --red50: #7801177b;
   --orange: #D55E10;
+  --orange50: #d55f107b;
   --beige: #F5F1DC;
   --offblack: #102022;
   --offblack50: #1020227b;
@@ -43,8 +44,11 @@ nav{
 }
 
 .navLinks li {
-  color: var(--beige);
   list-style: none;
+}
+
+.navLinks li a {
+  color: var(--beige);
 }
 
 .navLinks .active {
@@ -53,13 +57,13 @@ nav{
 }
 
 /* home */
-.event, .homeMerchandise, .homeSnacks, .homeLeaderboard {
+.event, .homeMerchandise, .homeSnacks, .homeLeaderboard,
+.merchandise, .searchbar{
   margin: 2em 1em;
 }
 
 /* home - events */
 .eventPoster{
-  border: 1px solid var(--red);
   border-radius: 30px;
   width: 460px;
   height: 300px;
@@ -97,7 +101,8 @@ nav{
   flex-direction: column;
 }
 
-.carouselMerch .card, .carouselSnacks .card {
+/* cards */
+.card{
   width: 200px;
   height: 200px;
   justify-content: center;
@@ -106,16 +111,21 @@ nav{
   background-color: var(--beige);
 }
 
-.carouselMerch .card img, .carouselSnacks .card img {
+.card img {
   width: 100%;
   object-fit: fill;
 }
 
-.carouselMerch article .cardTitels, .carouselSnacks article .cardTitels{  
+.carouselMerch .card, .carouselSnacks .card {
+  width: 200px;
+  height: 200px;
+}
+
+.cardTitels{  
   line-height: 0.5;
 }
 
-.carouselMerch p, .carouselSnacks p {
+.cardTitels p{
   font-weight: bold;
 }
 
@@ -139,4 +149,53 @@ nav{
 
   font-family: "Galada", cursive;
   font-size: 1.5em;
+}
+
+/* shop merch */
+.searchbar {
+  border-radius: 30px;
+  background-color: var(--red50);
+  display: block;
+  padding: 0.8em 1.5em;
+  text-align: right;
+}
+.searchbar a {
+  color: var(--beige);
+}
+
+.merchandise .titels i {
+  color: var(--red);
+}
+
+.merchRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.merchandise .card{
+  width: 225px;
+  height: 225px;
+  text-align: center;
+}
+
+.fitimg img{
+  height: 90%;
+  width: auto;
+  object-fit: fill;
+}
+
+.orangeBackground{
+  background-color: var(--orange50);
+}
+
+.btn {
+  background-color: var(--red);
+  color: var(--beige);
+  text-decoration: none;
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  padding: 0.7em 0.5em;
 }

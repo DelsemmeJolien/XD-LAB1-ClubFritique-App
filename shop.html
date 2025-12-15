@@ -7,32 +7,29 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
-    <title>Home - Club Fritique</title>
+    <title>Shop - Club Fritique</title>
 </head>
 <body>
     <nav>
         <ul class="navLinks">
-            <li><a class="active" href="#"><i class="fa-solid fa-house fa-xl"></i></a></li>
-            <li><a href="shop.html"><i class="fa-solid fa-store fa-xl"></i></a></li>
+            <li><a href="index.html"><i class="fa-solid fa-house fa-xl"></i></a></li>
+            <li><a class="active" href="#"><i class="fa-solid fa-store fa-xl"></i></a></li>
             <li><a href=""><i class="fa-solid fa-star fa-xl"></i></a></li>
             <li><a href=""><i class="fa-solid fa-bag-shopping fa-xl"></i></a></li>
             <li><a href=""><i class="fa-solid fa-user fa-xl"></i></a></li>
         </ul>
     </nav>
 
-    <section class="event">
-        <h1>Upcoming event</h1>
-        <div class="eventPoster">
-            <img src="./images/ClubFrtique-Event-GreatCrunchOff.png" alt="Event: The Great Crunch Off Club Fritique">
-        </div>
-    </section>
+    <div class="searchbar">    
+        <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>    
+    </div>
 
-    <section class="homeMerchandise">
+    <section class="merchandise">
         <div class="titels">
             <h1>Merchandise</h1>
-            <a href="">Zie meer</a>
+            <i class="fa-solid fa-filter fa-lg"></i>
         </div>
-        <div class="carouselMerch">
+        <div class="merchRow">
             <article>
                 <div class="card">
                     <img src="./images/merch-bewaartas.png" alt="Bewaartas Club Fritique">
@@ -41,6 +38,9 @@
                     <p>Bewaar Backpack</p>
                     <p>€34,99</p>
                 </div>
+                <div>
+                    <a class="btn" href="">Koop nu</a>
+                </div>
             </article>
             <article>
                 <div class="card">
@@ -48,9 +48,14 @@
                 </div>
                 <div class="cardTitels">
                     <p>Spelkaarten</p>
-                    <p>€14,99</p>
+                    <p>€9,99</p>
+                </div>
+                <div>
+                    <a class="btn" href="">Koop nu</a>
                 </div>
             </article>
+        </div>
+        <div class="merchRow">
             <article>
                 <div class="card">
                     <img src="./images/merch-wetwipes.png" alt="Wet Wipes Club Fritique">
@@ -59,52 +64,49 @@
                     <p>Wet Wipes</p>
                     <p>€2,99</p>
                 </div>
-            </article>
-        </div>
-    </section>
-
-    <section class="homeSnacks">
-        <div class="titels">
-            <h1>Snack Ratings</h1>
-            <a href="">Zie meer</a>
-        </div>
-        <div class="carouselSnacks">
-            <article>
-                <div class="card">
-                    <img src="./images/snacks/nuggets.png" alt="Nuggets">
-                </div>
-                <div class="cardTitels">
-                    <p>Nuggets</p>
+                <div>
+                    <a class="btn" href="">Koop nu</a>
                 </div>
             </article>
             <article>
-                <div class="card">
-                    <img src="./images/snacks/curryworst.png" alt="Curryworsten">
+                <div class="card orangeBackground">
+                    <img src="./images/merch-tshirts.png" alt="T-shirt Club Fritique">
                 </div>
                 <div class="cardTitels">
-                    <p>Curryworst</p>
+                    <p>T-Shirt</p>
+                    <p>€14,99</p>
                 </div>
-            </article>
-            <article>
-                <div class="card">
-                    <img src="./images/snacks/vleeskroket.png" alt="Vleeskroketten">
-                </div>
-                <div class="cardTitels">
-                    <p>Vleeskroket</p>
+                <div>
+                    <a class="btn" href="">Koop nu</a>
                 </div>
             </article>
         </div>
-    </section>
-
-    <section class="homeLeaderboard">
-        <h1>Leaderboard</h1>
-        <ol class="top5">
-            <li>Curryworst</li>
-            <li>Bicky Burger</li>
-            <li>Saté</li>
-            <li>Boulet</li>
-            <li>Viandel</li>
-        </ol>
+        <div class="merchRow">
+            <article>
+                <div class="card fitimg">
+                    <img src="./images/merch-stickers.png" alt="Stickers Club Fritique">
+                </div>
+                <div class="cardTitels">
+                    <p>Stickers</p>
+                    <p>€4,99</p>
+                </div>
+                <div>
+                    <a class="btn" href="">Koop nu</a>
+                </div>
+            </article>
+            <article>
+                <div class="card fitimg">
+                    <img src="./images/merch-notitieboekje.png" alt="Notitieboekje Club Fritique">
+                </div>
+                <div class="cardTitels">
+                    <p>Notitieboekje</p>
+                    <p>€8,99</p>
+                </div>
+                <div>
+                    <a class="btn" href="">Koop nu</a>
+                </div>
+            </article>
+        </div>
     </section>
 </body>
 </html>
