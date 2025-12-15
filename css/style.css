@@ -207,6 +207,7 @@ nav{
 
 .product .productTitel, .snack .snackTitel {
   justify-items: center;
+  line-height: 1;
 }
 
 .productButtons, .snackButtons {
@@ -224,14 +225,48 @@ nav{
   margin-bottom: 0;
 }
 
-/* rating overview */
-.homeLeaderboard .btn, .snackOverview .btn{
-  display: inline-block;
-  width: 150px;
+/* snack beoordeling */
+.beoordeling{
+  margin-top: 2em;
+}
+.beoordelingRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.btnCenter {
-  justify-self: center;  
+.beoordelingRow select {
+  border-radius: 30px;
+  width: 200px;
+  background-color: var(--red);
+  color: var(--beige);
+  font-family: "brother-1816-printed", sans-serif;
+  font-weight: bold;
+  height: 48px;
+  padding: 0em 1em;
+  text-align: center;
+}
+
+.totaalScore {
+  justify-items: center;
+  padding-bottom: 2em;
+}
+.totaalScore h2 {
+  margin-bottom: 0.5em;
+}
+.ratingStars {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8em;
+}
+
+.ratingStars img{
+  width: 40px;
+}
+
+.ratingStars .notSelected {
+  opacity: 0.5;
 }
 
 /* snack pagina */
@@ -276,4 +311,13 @@ nav{
 
 .backButton a {
   color: var(--red);
+}
+
+.homeLeaderboard .btn, .snackOverview .btn, .beoordeling .btn{
+  display: inline-block;
+  width: 150px;
+}
+
+.btnCenter {
+  justify-self: center;  
 }
