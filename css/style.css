@@ -62,7 +62,8 @@ nav{
 
 /* home */
 .event, .homeMerchandise, .homeSnacks, .homeLeaderboard,
-.merchandise, .searchbar, .product, .backButton, .snackOverview{
+.merchandise, .searchbar, .product, .backButton, .snackOverview,
+.snack{
   margin: 2em 1em;
 }
 
@@ -85,6 +86,9 @@ nav{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  line-height: 0;
+  padding-bottom: 1em;
+
 }
 
 .titels a {
@@ -195,23 +199,23 @@ nav{
 }
 
 /* productpagina */
-.product .card{
+.product .card, .snack .card{
   width: 300px;
   height: 300px;
   justify-self: center;
 }
 
-.product .productTitel {
+.product .productTitel, .snack .snackTitel {
   justify-items: center;
 }
 
-.productButtons {
+.productButtons, .snackButtons {
   display: flex;
   flex-direction: row;
   gap: 1em;
 }
 
-.productButtons .btn {
+.productButtons .btn, .snackButtons .btn {
   width: 100%;
 }
 
@@ -228,6 +232,27 @@ nav{
 
 .btnCenter {
   justify-self: center;  
+}
+
+/* snack pagina */
+.infoButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1em;
+  margin-top: 3em;
+}
+
+.infoButtons a {
+  text-decoration: none;
+  color: var(--offblack);
+  font-family: "Galada", cursive;
+  font-size: 2em;
+}
+
+.infoButtons .active {
+  color: var(--orange);
+  text-decoration: underline;
 }
 
 /* buttons */
