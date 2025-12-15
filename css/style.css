@@ -1,0 +1,19 @@
+:root{
+  --red: #780116;
+  --red50: #7801177b;
+  --beige: #F5F1DC;
+  --offblack: #102022;
+}
+
+body{
+  margin: 0;
+  font-family: "brother-1816-printed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Galada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
