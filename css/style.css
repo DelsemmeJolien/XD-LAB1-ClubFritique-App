@@ -132,14 +132,14 @@ nav{
 }
 
 /* home - leaderbord */
-.top5 {
+.top5, .top10 {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
   padding: 0;
   width: 95%;
 }
-.top5 li {
+.top5 li, .top10 li {
   background-color: var(--beige);
   height: 56px;
   width: 95%;
