@@ -158,6 +158,8 @@ nav{
   display: block;
   padding: 0.8em 1.5em;
   text-align: right;
+  margin-bottom: 0;
+  margin-top: 21px;
 }
 .searchbar a {
   color: var(--beige);
