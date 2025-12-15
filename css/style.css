@@ -357,6 +357,16 @@ nav{
   gap: 1em;
 }
 
+/* profiel */
+.profiel {
+  justify-items: center;
+  margin-top: 3em;
+}
+.profielfoto {
+  width: 150px;
+  border-radius: 50%;
+}
+
 /* buttons */
 .btn {
   background-color: var(--red);
