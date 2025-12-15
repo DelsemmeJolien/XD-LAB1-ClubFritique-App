@@ -63,7 +63,7 @@ nav{
 /* home */
 .event, .homeMerchandise, .homeSnacks, .homeLeaderboard,
 .merchandise, .searchbar, .product, .backButton, .snackOverview,
-.snack{
+.snack, .winkelmandje{
   margin: 2em 1em;
 }
 
@@ -210,13 +210,13 @@ nav{
   line-height: 1;
 }
 
-.productButtons, .snackButtons {
+.productButtons, .snackButtons, .betaalButtons {
   display: flex;
   flex-direction: row;
   gap: 1em;
 }
 
-.productButtons .btn, .snackButtons .btn {
+.productButtons .btn, .snackButtons .btn, .betaalButtons .btn {
   width: 100%;
 }
 
@@ -288,6 +288,57 @@ nav{
 .infoButtons .active {
   color: var(--orange);
   text-decoration: underline;
+}
+
+/* winkelmadndje */
+.winkelmandItems {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em 0;
+}
+.winkelmandItems article{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.winkelmandItems .card{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.cardTitels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.cardTitels h3 {
+  line-height: 1;
+  margin: 4px;
+}
+
+.amountItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amountItems select {
+  border-radius: 30px;
+  padding: 0.2em 0.8em;
+  background-color: var(--red);
+  color: var(--beige);
+  font-family: "Galada", cursive;
+  text-align: center;
+}
+
+.amountItems a {
+  color: var(--offblack);
 }
 
 /* buttons */
