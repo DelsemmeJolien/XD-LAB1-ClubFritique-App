@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
-    <title>Rating Overview - Club Fritique</title>
+    <title>Snacks - Club Fritique</title>
 </head>
 <body>
     <nav>
@@ -20,23 +20,14 @@
         </ul>
     </nav>
 
-    <section class="homeLeaderboard">
-        <h1>Leaderboard</h1>
-        <ol class="top5">
-            <li>Curryworst</li>
-            <li>Bicky Burger</li>
-            <li>Saté</li>
-            <li>Boulet</li>
-            <li>Viandel</li>
-        </ol>
-        <div class="btnCenter">
-            <a class="btn" href="leaderboard.html">Zie meer</a>
-        </div>
-    </section>
+    <div class="backButton">
+        <a href="ratingOverview.html"><i class="fa-solid fa-angle-left fa-2xl"></i></a>
+    </div>
 
     <section class="snackOverview">
         <div class="titels">
             <h1>Snacks</h1>
+            <i class="fa-solid fa-filter fa-xl"></i>
         </div>
         <div class="snackRow">
             <article>
@@ -84,7 +75,6 @@
                     <div class="card">
                         <img src="./images/snacks/cervela.png" alt="Cervela">
                     </div>
-
                     <div class="cardTitels">
                         <p>Cervela</p>
                     </div>
@@ -94,14 +84,50 @@
                 <div class="card">
                     <img src="./images/snacks/boulet.png" alt="Boulet">
                 </div>
-
                 <div class="cardTitels">
                     <p>Boulet</p>
                 </div>
             </article>
         </div>
-        <div class="btnCenter">
-            <a class="btn" href="snacksOverview.html">Zie meer</a>
+        <div class="snackRow">
+            <article>
+                <a class="openPage" href="snack.html">
+                    <div class="card">
+                        <img src="./images/snacks/viandel.png" alt="Viandel">
+                    </div>
+                    <div class="cardTitels">
+                        <p>Viandel</p>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <div class="card">
+                    <img src="./images/snacks/kaaskroket.png" alt="Kaaskroket">
+                </div>
+                <div class="cardTitels">
+                    <p>Kaaskroket</p>
+                </div>
+            </article>
+        </div>
+        <div class="snackRow">
+            <article>
+                <a class="openPage" href="snack.html">
+                    <div class="card">
+                        <img src="./images/snacks/sate.png" alt="Saté">
+                    </div>
+                    <div class="cardTitels">
+                        <p>Saté</p>
+                    </div>
+                </a>
+            </article>
+            <article>
+                <div class="card">
+                    <img src="./images/snacks/kipcorn.png" alt="Kipcorn">
+                </div>
+                <div class="cardTitels">
+                    <p>Boulet</p>
+                </div>
+            </article>
         </div>
     </section>
 </body>

@@ -167,7 +167,7 @@ nav{
   color: var(--beige);
 }
 
-.merchandise .titels i {
+.merchandise .titels i, .snackOverview .titels i {
   color: var(--red);
 }
 
