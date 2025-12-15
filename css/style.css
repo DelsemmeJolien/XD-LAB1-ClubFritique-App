@@ -340,6 +340,22 @@ nav{
 .amountItems a {
   color: var(--offblack);
 }
+.samenvatting .titel {
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+.samenvatting .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.samenvatting .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1em;
+}
 
 /* buttons */
 .btn {
