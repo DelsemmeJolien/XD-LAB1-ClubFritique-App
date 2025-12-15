@@ -62,7 +62,7 @@ nav{
 
 /* home */
 .event, .homeMerchandise, .homeSnacks, .homeLeaderboard,
-.merchandise, .searchbar, .product, .backButton{
+.merchandise, .searchbar, .product, .backButton, .snackOverview{
   margin: 2em 1em;
 }
 
@@ -171,14 +171,14 @@ nav{
   color: var(--red);
 }
 
-.merchRow {
+.merchRow, .snackRow {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 2em;
 }
 
-.merchandise .card{
+.merchandise .card, .snackOverview .card{
   width: 225px;
   height: 225px;
   text-align: center;
@@ -193,9 +193,8 @@ nav{
 .orangeBackground{
   background-color: var(--orange50);
 }
+
 /* productpagina */
-
-
 .product .card{
   width: 300px;
   height: 300px;
@@ -219,6 +218,16 @@ nav{
 .productBeschrijving h2 {
   margin-top: 1.5em;
   margin-bottom: 0;
+}
+
+/* rating overview */
+.homeLeaderboard .btn, .snackOverview .btn{
+  display: inline-block;
+  width: 150px;
+}
+
+.btnCenter {
+  justify-self: center;  
 }
 
 /* buttons */
