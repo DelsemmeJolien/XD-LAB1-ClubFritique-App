@@ -41,6 +41,7 @@ nav{
   padding: 0.2em 0.5em;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  z-index: 3;
 }
 
 .navLinks{
@@ -417,4 +418,27 @@ nav{
 
 .btnCenter {
   justify-self: center;  
+}
+/* like btn*/
+.card {
+  position: relative;
+}
+.card .likeBtn {
+  display: flex;
+  text-align: right;  
+  display: inline-block;
+  width: 100%;
+  position: absolute; 
+  top: 4px; 
+  right: 4px;
+  z-index: 1;
+}
+.card .likeBtn img {
+  width: 32px;
+  opacity: 0.5;
+  margin: 8px 8px;
+}
+
+.likeBtn input:checked + label img {
+  opacity: 1;
 }
