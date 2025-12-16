@@ -362,9 +362,21 @@ nav{
   justify-items: center;
   margin-top: 3em;
 }
-.profielfoto {
-  width: 150px;
+.profielfoto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 50%;
+}
+
+/* instellingen */
+.settings ul li {
+  list-style: none;
+  line-height: 2.5em;
+  font-family: "brother-1816-printed", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 2.5em;
 }
 
 /* buttons */
