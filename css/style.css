@@ -77,7 +77,6 @@ nav{
 
 /* home - events */
 .eventPoster{
-  border-radius: 30px;
   width: 460px;
   height: 300px;
 }
@@ -119,10 +118,14 @@ nav{
 
 /* cards */
 .card{
+  position: relative;
+
   justify-content: center;
   align-content: center;
   border-radius: 30px;
   background-color: var(--beige);
+  
+  text-align: center;
 }
 
 .card img {
@@ -135,8 +138,9 @@ nav{
   height: 200px;
 }
 
-.cardTitels{  
-  line-height: 0.5;
+.cardTitels h3 {
+  line-height: 1;
+  margin: 4px;
 }
 
 .cardTitels h4{
@@ -278,6 +282,7 @@ nav{
   justify-items: center;
   padding-bottom: 2em;
 }
+
 .totaalScore h2 {
   margin-bottom: 0.5em;
 }
@@ -340,11 +345,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   width: 100%;
-}
-
-.cardTitels h3 {
-  line-height: 1;
-  margin: 4px;
+  line-height: 0.2;
 }
 
 .amountItems {
@@ -370,18 +371,13 @@ nav{
   font-weight: bold;
   margin: 0.5em 0;
 }
-.samenvatting .row {
+.samenvatting .row, .samenvatting .price {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.samenvatting .price {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   gap: 1em;
 }
+
 
 /* profiel */
 .profiel {
@@ -445,10 +441,6 @@ nav{
 }
 
 /* like btn*/
-.card {
-  position: relative;
-}
-
 .card .likeBtn{
   position: absolute; 
   top: 4px; 
@@ -463,10 +455,10 @@ nav{
   cursor: pointer;
 }
 
-.card .likeBtn img {
+.likeBtn img {
   width: 32px;
   opacity: 0.5;
-  margin: 8px 8px;
+  margin: 8px;
   transition: opacity 0.2s ease;
 }
 
