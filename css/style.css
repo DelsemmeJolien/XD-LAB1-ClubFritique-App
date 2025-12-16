@@ -27,6 +27,11 @@ h1, h2, h3{
 h1{font-size: 2.5em;}
 h2{font-size: 2em;}
 h3{font-size: 1.5em;}
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
 
 a {
   font-weight: bold;
@@ -134,8 +139,9 @@ nav{
   line-height: 0.5;
 }
 
-.cardTitels p{
+.cardTitels h4{
   font-weight: bold;
+  margin: 1em 0;
 }
 
 /* home - leaderbord */
