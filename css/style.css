@@ -71,8 +71,7 @@ nav{
 
 /* home - events */
 .eventPoster{
-  /*width: 460px;*/
-  width: 100%;
+  width: 460px;
   height: 300px;
 }
 
