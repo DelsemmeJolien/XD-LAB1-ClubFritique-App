@@ -33,9 +33,7 @@ h4 {
   margin: 0;
 }
 
-a {
-  font-weight: bold;
-}
+a { font-weight: bold; }
 
 /* navigatie */
 nav{
@@ -55,13 +53,9 @@ nav{
   gap: 4em;
 }
 
-.navLinks li {
-  list-style: none;
-}
+.navLinks li { list-style: none; }
 
-.navLinks li a {
-  color: var(--beige);
-}
+.navLinks li a { color: var(--beige); }
 
 .navLinks .active {
   color: var(--orange);
@@ -95,7 +89,6 @@ nav{
   justify-content: space-between;
   line-height: 0;
   padding-bottom: 1em;
-
 }
 
 .titels a {
@@ -119,12 +112,10 @@ nav{
 /* cards */
 .card{
   position: relative;
-
   justify-content: center;
   align-content: center;
   border-radius: 30px;
   background-color: var(--beige);
-  
   text-align: center;
 }
 
@@ -156,6 +147,7 @@ nav{
   padding: 0;
   width: 95%;
 }
+
 .top5 li, .top10 li {
   background-color: var(--beige);
   height: 56px;
@@ -183,9 +175,7 @@ nav{
   color: var(--beige);
 }
 
-.search-icon {
-  font-size: 16px;
-}
+.search-icon { font-size: 16px; }
 
 .searchbar input {
   border: none;
@@ -201,9 +191,7 @@ nav{
   font-weight: bold;
 }
 
-.merchandise .titels i, .snackOverview .titels i {
-  color: var(--red);
-}
+.merchandise .titels i, .snackOverview .titels i { color: var(--red); }
 
 .merchRow, .snackRow {
   display: flex;
@@ -224,9 +212,7 @@ nav{
   object-fit: fill;
 }
 
-.orangeBackground{
-  background-color: var(--orange50);
-}
+.orangeBackground{ background-color: var(--orange50); }
 
 /* productpagina */
 .product .card, .snack .card{
@@ -246,9 +232,7 @@ nav{
   gap: 1em;
 }
 
-.productButtons .btn, .snackButtons .btn, .betaalButtons .btn {
-  width: 100%;
-}
+.productButtons .btn, .snackButtons .btn, .betaalButtons .btn { width: 100%; }
 
 .productBeschrijving h2 {
   margin-top: 1.5em;
@@ -256,9 +240,8 @@ nav{
 }
 
 /* snack beoordeling */
-.beoordeling{
-  margin-top: 2em;
-}
+.beoordeling{ margin-top: 2em; }
+
 .beoordelingRow {
   display: flex;
   flex-direction: row;
@@ -283,22 +266,17 @@ nav{
   padding-bottom: 2em;
 }
 
-.totaalScore h2 {
-  margin-bottom: 0.5em;
-}
+.totaalScore h2 { margin-bottom: 0.5em; }
+
 .ratingStars {
   display: flex;
   flex-direction: row;
   gap: 0.8em;
 }
 
-.ratingStars img{
-  width: 40px;
-}
+.ratingStars img{ width: 40px; }
 
-.ratingStars .notSelected {
-  opacity: 0.5;
-}
+.ratingStars .notSelected { opacity: 0.5; }
 
 /* snack pagina */
 .infoButtons {
@@ -328,6 +306,7 @@ nav{
   gap: 1em;
   margin: 1em 0;
 }
+
 .winkelmandItems article{
   display: flex;
   flex-direction: row;
@@ -364,20 +343,19 @@ nav{
   text-align: center;
 }
 
-.amountItems a {
-  color: var(--offblack);
-}
+.amountItems a { color: var(--offblack); }
+
 .samenvatting .titel {
   font-weight: bold;
   margin: 0.5em 0;
 }
+
 .samenvatting .row, .samenvatting .price {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 1em;
 }
-
 
 /* profiel */
 .profiel {
@@ -418,27 +396,22 @@ nav{
   text-align: center;
   padding: 0.7em 0.5em;
 }
+
 .openPage {
   text-decoration: none;
   color: var(--offblack);
 }
 
-.backButton {
-  display: block
-}
+.backButton { display: block; }
 
-.backButton a {
-  color: var(--red);
-}
+.backButton a { color: var(--red); }
 
 .homeLeaderboard .btn, .snackOverview .btn, .beoordeling .btn{
   display: inline-block;
   width: 150px;
 }
 
-.btnCenter {
-  justify-self: center;  
-}
+.btnCenter { justify-self: center; }
 
 /* like btn*/
 .card .likeBtn{
@@ -448,12 +421,9 @@ nav{
   z-index: 1;
 }
 
-.likeBtn input {
-  display: none;
-}
-.likeBtn label {
-  cursor: pointer;
-}
+.likeBtn input { display: none; }
+
+.likeBtn label { cursor: pointer; }
 
 .likeBtn img {
   width: 32px;
@@ -468,6 +438,4 @@ nav{
   transition: opacity 0.2s ease;
 }
 
-.likeBtn input:checked + label img {
-  opacity: 1;
-}
+.likeBtn input:checked + label img { opacity: 1; }
