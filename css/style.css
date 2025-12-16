@@ -424,19 +424,29 @@ nav{
   position: relative;
 }
 .card .likeBtn {
-  display: flex;
+  /* display: flex;
   text-align: right;  
   display: inline-block;
-  width: 100%;
+  width: 100%; */
+
   position: absolute; 
   top: 4px; 
   right: 4px;
   z-index: 1;
 }
+
+.likeBtn input {
+  display: none;
+}
+.likeBtn label {
+  cursor: pointer;
+}
+
 .card .likeBtn img {
   width: 32px;
   opacity: 0.5;
   margin: 8px 8px;
+  transition: opacity 0.2s ease;
 }
 
 .likeBtn input:checked + label img {
