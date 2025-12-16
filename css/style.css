@@ -5,7 +5,7 @@
   --orange50: #d55f107b;
   --beige: #F5F1DC;
   --offblack: #102022;
-  --offblack50: #1020227b;
+  --offblack50: #10202286;
 }
 
 body{
@@ -382,6 +382,7 @@ nav{
   justify-items: center;
   margin-top: 3em;
 }
+
 .profielfoto img {
   width: 200px;
   height: 200px;
@@ -436,16 +437,13 @@ nav{
 .btnCenter {
   justify-self: center;  
 }
+
 /* like btn*/
 .card {
   position: relative;
 }
-.card .likeBtn{
-  /* display: flex;
-  text-align: right;  
-  display: inline-block;
-  width: 100%; */
 
+.card .likeBtn{
   position: absolute; 
   top: 4px; 
   right: 4px;
